@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Prapti Priya",
+  "github": "Prapti101",
+  "lab1_scenario": "C",
+  "lab1_prompt": "You are an HR support chatbot for a company.\n\nProvide a clear and accurate reply to a new campus recruit asking about laptop provisioning.\n\nContext: The employee has recently joined the company and wants to know when they will receive their laptop and how the process works.\n\nConstraints: Keep the response under 100 words. Do not make up company policies or timelines. Include a suggestion to contact HR or the IT support team if additional help is needed.\n\nTone: Professional, polite, helpful, and friendly.\n\nOutput format: Write a single, well-structured chatbot reply in one short paragraph.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 1,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI answered that 4,299 units are available for sale by the end of the day. It gave the correct result with only a brief explanation, without detailed step-by-step reasoning.",
+  "lab2_cot_prompt": "Solve this step by step. First subtract the shipped units from the starting inventory. Then calculate 6% of the remaining stock and subtract it as the quality hold. Next add the 1,150 restocked units. Show every calculation clearly and give the final number of units available for sale.",
+  "lab2_cot_output_summary": "The AI again calculated 4,299 units and explained every step clearly. The calculations were correct and easy to verify, making the reasoning more reliable.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "If you cannot verify a calculation, say what information or tool you need instead of guessing. Show all calculations before giving the final answer.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:42:52.224Z"
+}
