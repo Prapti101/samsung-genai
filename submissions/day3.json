@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Prapti Priya",
+  "github": "Prapti101",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "B",
+  "rag_no_rag_summary": "It confidently said that there is no publicly verified Samsung India Policy. Samsung India does not publicly disclose a parental leave policy distinguishing primary vs. secondary caregivers. The only confirmed entitlement is India's statutory 26 weeks of paid maternity leave for eligible birth mothers, while any additional or paternity leave is governed by Samsung's internal HR policy.",
+  "rag_grounded_summary": "It says Samsung India full-time employees who are primary caregivers are entitled to 26 weeks of fully paid parental leave, while secondary caregivers receive 2 weeks of fully paid leave. All parental leave must be taken within 12 months of the child's birth or adoption.",
+  "rag_judgement": "fixed_wrong",
+  "stretch_done": true,
+  "stretch_notes": "I tested a RAG conflict scenario by providing a document that intentionally contradicted well-known information and instructed the model to answer only using the retrieved document. The model prioritized the retrieved document for questions about its contents, while noting that it conflicted with general knowledge. This demonstrated that retrieved context can override the model's prior knowledge when the task is to answer based on the supplied source.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T09:24:34.158Z"
+}
