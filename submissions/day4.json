@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Prapti Priya",
+  "github": "Prapti101",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Reliability",
+      "justification": "Deepfake/Misinformation failure type as the support bot delivered a wrong information to the customer without fact checking and the Principle violated hardest is Reliability as AI did not work correctly."
+    },
+    {
+      "id": "B",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Transparency",
+      "justification": "The employees did not monitor the firm properly so i think failure type will be human oversight and principle violated hardest is transparency as one should be open about using AI."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Safety",
+      "justification": "Falure type will be deeepfake as a wrong video clip of someone was created and the principle violated hardest is safety as the wrong information deep fake videos can result in dangerous situations."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The failure type will be Bias/Discrimination as the company starts hiring just the male candidates because of a tool and the principle violated hardest is fairness as AI is not treating everyone equally without bias or discrimination."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Accountability",
+      "justification": "Humans should monitor AI and someone must take responsibility when the AI makes a mistake."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "The security can be breached this way and scammers will misue the tool."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Microsoft Tay",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Safety",
+  "stretch_notes": "AI generated harmful content without suffiecinet safeguards.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:28:40.683Z"
+}
